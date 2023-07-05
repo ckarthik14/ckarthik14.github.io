@@ -20,7 +20,7 @@
 .b-example-vr {
     flex-shrink: 0;
     width: 0.75rem;
-    height: 100vmax;
+    height: 100vh;
 }
 
 img {
