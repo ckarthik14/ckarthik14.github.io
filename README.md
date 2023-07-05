@@ -1,2 +1,2 @@
-# ckarthik14.github.io
-Personal Website
+# Personal Website
+Personal Website built using Github Pages
