@@ -1,6 +1,5 @@
 .b-example-divider {
-    margin: auto;
-    width: 20%;
+    width: 26%;
     height: 0rem;
     background-color: rgba(0, 0, 0, .1);
     border: solid rgba(0, 0, 0, .15);
@@ -20,7 +19,7 @@
 .b-example-vr {
     flex-shrink: 0;
     width: 0.75rem;
-    height: 100vh;
+    height: 110vh;
 }
 
 img {
@@ -46,7 +45,17 @@ img {
     float: right;
 }
 
+.img-small {
+    width: 150px;
+    height: auto;
+}
+
 .content-margin {
     justify-content: left;
-    margin-left: 21%;
+    margin-left: 5%;
+}
+
+.content-right {
+    float: right;
+    margin-right: 4%;
 }
