@@ -32,13 +32,6 @@ body {
     height: 110vh;
 }
 
-img {
-    width: 250px;
-    height: auto;
-    border-radius: 5%;
-    align-self: center;
-}
-
 .img-left {
     width: 250px;
     height: auto;
