@@ -32,20 +32,44 @@ body {
     height: 110vh;
 }
 
-.img-left {
-    width: 250px;
+.text-description-right {
+    margin-left: 245px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text-description-left {
+    margin-right: 325px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.img-default {
+    width: 220px;
     height: auto;
     border-radius: 5%;
-    margin-right: 25px;
+}
+
+.pic-left {
+    width: 220px;
+    height: auto;
+    border-radius: 5%;
+    text-align: center;
     float: left;
 }
 
-.img-right {
-    width: 250px;
+.pic-right {
+    width: 300px;
     height: auto;
     border-radius: 5%;
-    margin-left: 25px;
+    text-align: center;
     float: right;
+}
+
+.pic-desc {
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 3%;
 }
 
 .img-small {
