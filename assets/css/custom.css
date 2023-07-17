@@ -35,6 +35,13 @@ body {
     border-radius: 5%;
 }
 
+.img-default-br {
+    width: 220px;
+    height: auto;
+    border-radius: 5%;
+    margin-bottom: 5%;
+}
+
 .pic-left {
     border-radius: 5%;
     text-align: center;
@@ -86,6 +93,11 @@ body {
       body::-webkit-scrollbar {
         display: none; /* for Chrome, Safari, and Opera */
       }
+
+    .list-items-center{
+        width:max-content;
+        margin: auto;
+    }
 
     .b-example-divider {
         width: 245px;
@@ -142,10 +154,6 @@ body {
         text-align: center;
         justify-content: center;
         margin: auto;
-        margin-left: auto;
-        margin-right: auto;
-        width:max-content;
-        padding: auto;
     }
     
     .content-bio {
