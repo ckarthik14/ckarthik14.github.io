@@ -71,6 +71,14 @@ body {
     margin-left: 16%;
 }
 
+.content-general {
+    margin-bottom: 5%;
+}
+
+.content-nav {
+    margin-bottom: 3%;
+}
+
 .content-bio {
     flex:0 0 auto;
     width: 16.667%;
@@ -110,14 +118,14 @@ body {
     }
     
     .text-description-right {
-        margin-left: auto;
+        margin: auto;
         text-align: justify;
         font-size: 18px;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     
     .text-description-left {
-        margin-right: auto;
+        margin: auto;
         text-align: justify;
         font-size: 18px;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -131,10 +139,12 @@ body {
     
     .pic-left {
         float:none;
+        margin: auto
     }
     
     .pic-right {
         float: none;
+        margin: auto;
     }
     
     .pic-desc {
@@ -153,13 +163,21 @@ body {
         width:87%;
         text-align: center;
         justify-content: center;
-        margin: auto;
+        margin-left: auto;
+    }
+
+    .content-general {
+        margin-bottom: 9%;
+    }
+    
+    .content-nav {
+        margin-bottom: 3%;
     }
     
     .content-bio {
         flex:0 0 auto;
         width: 75%;
-        margin: auto;
+        margin-bottom: 7%;
         float:none;
         margin-top: auto;
         margin-right: auto;
