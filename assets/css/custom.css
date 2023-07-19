@@ -71,6 +71,13 @@ body {
     margin-left: 16%;
 }
 
+.content-margin-wide {
+    flex:0 0 auto;
+    width:62%;
+    justify-content: left;
+    margin-left: 16%;
+}
+
 .content-general {
     margin-bottom: 5%;
 }
@@ -122,6 +129,7 @@ body {
         text-align: justify;
         font-size: 18px;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        width: 100%;
     }
     
     .text-description-left {
@@ -129,6 +137,7 @@ body {
         text-align: justify;
         font-size: 18px;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        width: 100%;
     }
     
     .img-default {
@@ -164,10 +173,20 @@ body {
         text-align: center;
         justify-content: center;
         margin-left: auto;
+        overflow-wrap: break-word;
+    }
+
+    .content-margin-wide {
+        flex:0 0 auto;
+        width:87%;
+        text-align: center;
+        justify-content: center;
+        margin-left: auto;
+        overflow-wrap: break-word;
     }
 
     .content-general {
-        margin-bottom: 9%;
+        margin-bottom: 20%;
     }
     
     .content-nav {
